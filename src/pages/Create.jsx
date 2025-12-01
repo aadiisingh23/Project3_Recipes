@@ -2,19 +2,23 @@ import React, { useContext } from 'react'
 import { useForm } from 'react-hook-form'
 import { recipeContext } from '../context/RecipeContext';
 import { nanoid } from 'nanoid';
+import { toast } from 'react-toastify';
+import { useNavigate } from 'react-router-dom';
 
 const Create = () => {
+  const navigate = useNavigate();
   const {register,handleSubmit,reset} = useForm();
   const{data,setData} = useContext(recipeContext);
+
+
   const submitHandler = (recipe) => {
     console.log(data);
 
     recipe.id = nanoid();
-    // const copyData = [...data];
-    // copyData.push(recipe);
-    // setData(copyData);
     setData([...data,recipe])
+    toast.success("Recipe Created Successfully!");
     reset();
+    navigate('/recipes');
   }
   return (
   <div className='flex justify-center w-full  px-3 py-2 mt-12'>

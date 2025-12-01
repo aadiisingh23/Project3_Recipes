@@ -6,7 +6,7 @@ const RecipeContext = ({ children }) => {
   const [data, setData] = useState([
   {
     "id": "1",
-    "image": "https://example.com/images/pasta.jpg",
+    "image": "https://www.allrecipes.com/thmb/ziUOvj4f_me5yvZhYCUy0n4IKbQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/276725-creamy-chicken-alfredo-VAT-001-Beauty-4x3-c4b026db5cb349f4b8fd627c56f91a42.jpg",
     "title": "Creamy Alfredo Pasta",
     "chef": "Giovanni Rossi",
     "description": "A rich and creamy Italian pasta dish with parmesan and butter.",
@@ -16,7 +16,7 @@ const RecipeContext = ({ children }) => {
   },
   {
     "id": "2",
-    "image": "https://example.com/images/biryani.jpg",
+    "image": "https://swatisani.net/kitchen/wp-content/uploads/2015/10/IMG_9526.jpg",
     "title": "Hyderabadi Chicken Biryani",
     "chef": "Ayesha Khan",
     "description": "Aromatic rice layered with spiced chicken, cooked to perfection.",
@@ -26,7 +26,7 @@ const RecipeContext = ({ children }) => {
   },
   {
     "id": "3",
-    "image": "https://example.com/images/tacos.jpg",
+    "image": "https://howtofeedaloon.com/wp-content/uploads/2023/05/texmex-beef-taco-IG-500x375.jpg",
     "title": "Mexican Beef Tacos",
     "chef": "Carlos Ramirez",
     "description": "Crispy tacos filled with seasoned beef, salsa, and cheese.",
@@ -36,7 +36,7 @@ const RecipeContext = ({ children }) => {
   },
   {
     "id": "4",
-    "image": "https://example.com/images/sushi.jpg",
+    "image": "https://vaya.in/recipes/wp-content/uploads/2019/01/California-Roll.jpg",
     "title": "California Sushi Roll",
     "chef": "Hiro Tanaka",
     "description": "A classic sushi roll with crab, avocado, and cucumber.",
@@ -46,7 +46,7 @@ const RecipeContext = ({ children }) => {
   },
   {
     "id": "5",
-    "image": "https://example.com/images/pancakes.jpg",
+    "image": "https://www.spicebangla.com/wp-content/uploads/2025/02/Easy-Fluffy-Pancakes-Recipe.webp",
     "title": "Fluffy Pancakes",
     "chef": "Emily Johnson",
     "description": "Soft and fluffy pancakes perfect for breakfast.",
